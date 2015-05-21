@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02E30110" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02E30110"/>
+  <item nodeId="node-0x02E30110">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">This is the first of many Logic Simulations you need to pass in order to move up the Military ranks. You are initially supplied with 50 health, but each turn removes 1 health point. Escape the pit and be wary of Dennis.&#x000A;&#x000A;Logic Simulation 1&#x000A;An Interactive Fiction by Chris Casil&#x000A;Release 1 / Serial number 150419 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Lobby&#x000A;There is a locked door to the South and a locked door to the North, and an opening to a room in the east. You hear snoring to the south.&#x000A;&#x000A;You can see a South Door, a North Door, a Trumpet, a Letter and Basket (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02E42830"/>
+      <child nodeId="node-0x02E42948"/>
+      <child nodeId="node-0x02E1ED10"/>
+      <child nodeId="node-0x02E38680"/>
+      <child nodeId="node-0x02E4B290"/>
+      <child nodeId="node-0x02E4B760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E42830">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Entrance&#x000A;dfdf.&#x000A;&#x000A;You can see a ladder here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E42948">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Bedroom&#x000A;Something is sleeping in the bed.&#x000A;&#x000A;You can see Dennis here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E429B8"/>
+      <child nodeId="node-0x02E30C48"/>
+      <child nodeId="node-0x02E30D28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E429B8">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Lobby&#x000A;On your way back to camp, you fall into a pit which seems to house some sort of animal. You hear snoring to the south&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E30BD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E30BD8">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Entrance&#x000A;dfdf.&#x000A;&#x000A;You can see a ladder here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E30C48">
+    <command xml:space="preserve">x monster</command>
+    <result xml:space="preserve">Big and Black.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E30D28">
+    <command xml:space="preserve">x dennis</command>
+    <result xml:space="preserve">A dark figure that almost looks human.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E30D98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E30D98">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E1EC00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E1EC00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E1ED10">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the painted green door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E1ED80"/>
+      <child nodeId="node-0x02E37C70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E1ED80">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">I wonder what this opens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E1EEA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E1EEA0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Lobby&#x000A;You can see a glass case (closed), a Letter and a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37A40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37A40">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Lobby&#x000A;You can see a glass case (closed), a Letter and a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37AB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37AB0">
+    <command xml:space="preserve">open case with key</command>
+    <result xml:space="preserve">You unlock the glass case.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37B20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37B20">
+    <command xml:space="preserve">examine case</command>
+    <result xml:space="preserve">You see nothing special about the glass case.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37B90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37B90">
+    <command xml:space="preserve">x letter</command>
+    <result xml:space="preserve">I wish I had friends.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37C00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37C00">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Bedroom&#x000A;You see the cannibal.&#x000A;&#x000A;You can see Dennis here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E37C70">
+    <command xml:space="preserve">x doorr</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37CE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37CE0">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">The door is nice, but it is locked. Don't you think you should look for a key?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37D50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37D50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Entrance&#x000A;.&#x000A;&#x000A;The only way out is up the ladder.&#x000A;&#x000A;You can also see a green key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37DC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37DC0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37E30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37E30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Lobby&#x000A;To the north of the lobby is a green door. There is a person mumbling south of the Lobby.&#x000A;&#x000A;A painted green door stands in the middle of an old brick wall.&#x000A;&#x000A;You can also see a glass case (closed), a Letter and a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37EA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37EA0">
+    <command xml:space="preserve">open door with key</command>
+    <result xml:space="preserve">You unlock the painted green door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37F10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37F10">
+    <command xml:space="preserve">open case with key</command>
+    <result xml:space="preserve">That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37F80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37F80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the painted green door)&#x000A;&#x000A;Bathroom&#x000A;This place is surprisingly clean.&#x000A;&#x000A;A painted green door stands in the middle of an old brick wall.&#x000A;&#x000A;You can also see a Silver Key and a Mirror here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E37FF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E37FF0">
+    <command xml:space="preserve">take ky</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E38060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E38060">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">(the Silver Key)&#x000A;I wonder what this opens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E380D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E380D0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Lobby&#x000A;To the north of the lobby is a green door. There is a person mumbling south of the Lobby.&#x000A;&#x000A;A painted green door stands in the middle of an old brick wall.&#x000A;&#x000A;You can also see a glass case (closed), a Letter and a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E38140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E38140">
+    <command xml:space="preserve">open case</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E381B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E381B0">
+    <command xml:space="preserve">open case with key</command>
+    <result xml:space="preserve">Which do you mean, the Silver Key or the green key?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E38290"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E38290">
+    <command xml:space="preserve">oops silver key</command>
+    <result xml:space="preserve">"Oops" can only correct a single word.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E38300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E38300">
+    <command xml:space="preserve">open case with silver key</command>
+    <result xml:space="preserve">You unlock the glass case.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E38370"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E38370">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E383E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E383E0">
+    <command xml:space="preserve">x knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E38450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E38450">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Lobby&#x000A;To the north of the lobby is a green door. There is a person mumbling south of the Lobby.&#x000A;&#x000A;A painted green door stands in the middle of an old brick wall.&#x000A;&#x000A;You can also see a glass case (closed), a Letter and a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E384C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E384C0">
+    <command xml:space="preserve">open glass case with silver key</command>
+    <result xml:space="preserve">That's unlocked at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E38530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E38530">
+    <command xml:space="preserve">x glass case</command>
+    <result xml:space="preserve">You see nothing special about the glass case.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E385A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E385A0">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E38610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E38610">
+    <command xml:space="preserve">play trumpet</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E38680">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">Storage Room&#x000A;Useless things in here.&#x000A;&#x000A;You can see a Silver Key and a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E386F0"/>
+      <child nodeId="node-0x02E387D0"/>
+      <child nodeId="node-0x02E4B140"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E386F0">
+    <command xml:space="preserve">examine Silver Key</command>
+    <result xml:space="preserve">You see nothing special about the Silver Key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E38760"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E38760">
+    <command xml:space="preserve">examine trumpet</command>
+    <result xml:space="preserve">You see nothing special about the Trumpet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E387D0">
+    <command xml:space="preserve">take trumpet</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E38840"/>
+      <child nodeId="node-0x02E38990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E38840">
+    <command xml:space="preserve">use trumpety</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E388B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E388B0">
+    <command xml:space="preserve">use trumpet</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E38920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E38920">
+    <command xml:space="preserve">eat trumpet</command>
+    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E38990">
+    <command xml:space="preserve">use trumpet</command>
+    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4AFF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4AFF0">
+    <command xml:space="preserve">eat trumpet</command>
+    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B060">
+    <command xml:space="preserve">use trumpet</command>
+    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B0D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B0D0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Storage Room&#x000A;Useless things in here.&#x000A;&#x000A;You can see a Silver Key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E4B140">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Storage Room&#x000A;Useless things in here.&#x000A;&#x000A;You can see a Silver Key and a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B1B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B1B0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">I wonder what this opens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B220"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B220">
+    <command xml:space="preserve">open case</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E4B290">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Storage Room&#x000A;Useless things in here.&#x000A;&#x000A;You can see a Silver Key, a glass case (closed) and a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B300"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B300">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">I wonder what this opens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B370"/>
+      <child nodeId="node-0x02E4B4C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B370">
+    <command xml:space="preserve">open case</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B3E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B3E0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Silver Key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B450"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B450">
+    <command xml:space="preserve">x case</command>
+    <result xml:space="preserve">You see nothing special about the glass case.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E4B4C0">
+    <command xml:space="preserve">use key</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B530"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B530">
+    <command xml:space="preserve">open case</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B5A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B5A0">
+    <command xml:space="preserve">open case with key</command>
+    <result xml:space="preserve">You unlock the glass case.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B610"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B610">
+    <command xml:space="preserve">x case</command>
+    <result xml:space="preserve">You see nothing special about the glass case.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B680"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B680">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Storage Room&#x000A;Useless things in here.&#x000A;&#x000A;You can see a glass case (closed) and a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B6F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B6F0">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E4B760">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the South Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B7D0"/>
+      <child nodeId="node-0x02E4D868"/>
+      <child nodeId="node-0x02E4D948"/>
+      <child nodeId="node-0x02E4DD38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B7D0">
+    <command xml:space="preserve">kill dennis</command>
+    <result xml:space="preserve">*** Dennis eats you. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B840"/>
+      <child nodeId="node-0x02E4BCA0"/>
+      <child nodeId="node-0x02E4BF40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B840">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A;You can see a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B8B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B8B0">
+    <command xml:space="preserve">play trumpet</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B920"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B920">
+    <command xml:space="preserve">use trumpet</command>
+    <result xml:space="preserve">You must supply a noun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4B990"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4B990">
+    <command xml:space="preserve">eat trumpet</command>
+    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4BA00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4BA00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4BA70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4BA70">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bathroom&#x000A;You can see a Silver Key and a Mirror here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4BAE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4BAE0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">I wonder what this opens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4BB50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4BB50">
+    <command xml:space="preserve">use key</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4BBC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4BBC0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Lobby&#x000A;You can see a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4BC30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4BC30">
+    <command xml:space="preserve">use key</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E4BCA0">
+    <command xml:space="preserve">kill dennis with knife</command>
+    <result xml:space="preserve">You kill dennis with knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4BD10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4BD10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A;To the north of the lobby is a green door. There is a person mumbling south of the Lobby.&#x000A;&#x000A;A painted green door stands in the middle of an old brick wall.&#x000A;&#x000A;You can also see a glass case (closed), a Silver Key, a Letter and a Trumpet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4BDF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4BDF0">
+    <command xml:space="preserve">kill case</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4BE60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4BE60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Bedroom&#x000A;You see the cannibal.&#x000A;&#x000A;You can see Dennis here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4BED0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4BED0">
+    <command xml:space="preserve">stab dennis with knife</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E4BF40">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">As punishment for stealing, you are thrown in a pit that is home to a cannibalistic monster.&#x000A;&#x000A;The Pit&#x000A;An Interactive Fiction by Chris Casil&#x000A;Release 1 / Serial number 150406 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Lobby&#x000A;To the north of the lobby is a green door. There is a person mumbling south of the Lobby.&#x000A;&#x000A;A painted green door stands in the middle of an old brick wall.&#x000A;&#x000A;You can also see a Trumpet, a Silver Key, a Letter and Basket (in which is an Arm) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4D5C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4D5C8">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">I wonder what this opens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4D638"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4D638">
+    <command xml:space="preserve">open case with key</command>
+    <result xml:space="preserve">You unlock the glass case.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4D6A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4D6A8">
+    <command xml:space="preserve">open case</command>
+    <result xml:space="preserve">You open the glass case, revealing a knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4D718"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4D718">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4D788"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4D788">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Bedroom&#x000A;You see the cannibal.&#x000A;&#x000A;You can see Dennis here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4D7F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4D7F8">
+    <command xml:space="preserve">kill dennis</command>
+    <result xml:space="preserve">*** Dennis eats you. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E4D868">
+    <command xml:space="preserve">talk to dennis</command>
+    <result xml:space="preserve">Urgg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4D8D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4D8D8">
+    <command xml:space="preserve">ask dennis about friends</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E4D948">
+    <command xml:space="preserve">attack dennis</command>
+    <result xml:space="preserve">Dennis eats you&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4D9B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4D9B8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A;To the north of the lobby is a green door. There is a person mumbling south of the Lobby.&#x000A;&#x000A;A painted green door stands in the middle of an old brick wall.&#x000A;&#x000A;You can also see a Trumpet, a Silver Key, a Letter and Basket (in which is an Arm) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4DA28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4DA28">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">I wonder what this opens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4DA98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4DA98">
+    <command xml:space="preserve">open case with key</command>
+    <result xml:space="preserve">You unlock the glass case.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4DB08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4DB08">
+    <command xml:space="preserve">open case</command>
+    <result xml:space="preserve">You open the glass case, revealing a knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4DB78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4DB78">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4DBE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4DBE8">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Bedroom&#x000A;You see the cannibal.&#x000A;&#x000A;You can see Dennis here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4DC58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4DC58">
+    <command xml:space="preserve">kill dennis with knife</command>
+    <result xml:space="preserve">You kill dennis with knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4DCC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4DCC8">
+    <command xml:space="preserve">eat dennis</command>
+    <result xml:space="preserve">He's plainly inedible.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E4DD38">
+    <command xml:space="preserve">eat dennis</command>
+    <result xml:space="preserve">Dennis gets aroused.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E4DDA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E4DDA8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Lobby&#x000A;To the north of the lobby is a green door. There is a person mumbling south of the Lobby.&#x000A;&#x000A;A painted green door stands in the middle of an old brick wall.&#x000A;&#x000A;You can also see a Trumpet, a Silver Key, a Letter and Basket (in which is an Arm) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
